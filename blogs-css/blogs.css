@@ -1,42 +1,78 @@
 h1 {
-  margin-bottom: 60px;
-  font-family: Montserrat, sans-serif;
-  font-size: 52px;
-  line-height: 1.15;
-  font-weight: 700;
+	margin-bottom: 60px;
+	font-family: Montserrat, sans-serif;
+	font-size: 52px;
+	line-height: 1.15;
+	font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 35px;
-  }
+	h1 {
+		font-size: 35px;
+	}
 }
 
 @media (max-width: 479px) {
-  h1 {
-    font-size: 24px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-family: Montserrat, sans-serif;
-  }
+	h1 {
+		font-size: 24px;
+		margin-bottom: 50px;
+		font-weight: 700;
+		font-family: Montserrat, sans-serif;
+	}
 }
 
 .no-padding {
-  padding: 0;
+	padding: 0;
 }
 
 .h1__and__img__wrapper {
-  margin: 0 auto;
+	margin: 0 auto;
+}
+
+.h1__and__img__wrapper_rewards {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.h1__and__img__wrapper_rewards--margin {
+	margin: 0 auto 60px auto;
 }
 
 .bolded {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 .italic {
-  font-style: italic;
+	font-style: italic;
 }
 
 .underlined {
-  text-decoration-line: underline;
+	text-decoration-line: underline;
+}
+
+.video-wrapper {
+	position: relative;
+}
+
+.video-wrapper video {
+	width: 60%;
+	cursor: pointer;
+}
+
+.video-wrapper img {
+	width: 30%;
+	margin: 0;
+}
+
+.rewards-title-heading {
+	margin: 70px 0 20px 0;
+}
+
+.rewards-title-link {
+	color: #e2b467;
+	text-decoration: none;
+}
+
+.rewards_section {
+	margin-bottom: 40px;
 }
