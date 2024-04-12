@@ -76,3 +76,7 @@ h1 {
 .rewards_section {
 	margin-bottom: 40px;
 }
+
+.video-wrapper--single img {
+	width: 40%;
+}
