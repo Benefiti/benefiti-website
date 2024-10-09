@@ -94,3 +94,9 @@ h1 {
 	justify-content: center;
 	width: 100%;
 }
+
+.center-verticaly {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
