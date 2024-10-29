@@ -2198,3 +2198,9 @@ textarea.w-select {
 .blog-thumbnail-container:hover .blog-grid-title::after {
   width: 100%; /* Full width on hover */
 }
+
+.nav-link:hover{
+	padding: 7px 0px;
+	border-bottom: 4px none #f64256;
+	box-shadow: 0 4px 0 -1px #ed395e;
+}
