@@ -330,6 +330,7 @@ h3.blog5-heading {
 		padding-top: 0;
 		padding-bottom: 0;
 		/* font-size  : 16px; */
+		margin-bottom: 30px;
 	}
 }
 
@@ -2379,11 +2380,14 @@ h3.blog5-heading {
 }
 
 .answer {
-	display: block;
+	display: flex;
 	overflow: hidden;
-	padding-right: 8px;
-	padding-left: 64px;
+	padding: 0 20px;
 	color: #9096a4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: auto !important;
 }
 
 .question-container {
@@ -3538,7 +3542,7 @@ h3.blog5-heading {
 	}
 
 	.nav-link-2.border.cta {
-		text-align: left;
+		margin: 0;
 	}
 
 	.nav-link {
@@ -3574,11 +3578,10 @@ h3.blog5-heading {
 	}
 
 	.nav-cta-button-container {
-		display: block;
+		display: flex;
 		padding-top: 16px;
 		padding-bottom: 16px;
 		padding-left: 24px;
-		float: left;
 		-webkit-box-pack: start;
 		-webkit-justify-content: flex-start;
 		-ms-flex-pack: start;
@@ -3915,7 +3918,7 @@ h3.blog5-heading {
 	}
 
 	.section-header {
-		margin-bottom: 40px;
+		margin: 40px 0;
 	}
 
 	.hexagon2 {
@@ -5020,3 +5023,8 @@ th {
 	background-color: #3fefef;
 }
 
+@media (max-width: 991px) {
+	.col.lg-8.col-12 {
+		width: 100%;
+	}
+}

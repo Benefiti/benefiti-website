@@ -1154,7 +1154,6 @@ textarea.w-select {
 	left: 0;
 	margin: auto;
 	padding-top: 10px;
-	height: 180px;
 	text-align: center;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1191,8 +1190,8 @@ textarea.w-select {
 .w-slider-dot {
 	position: relative;
 	display: inline-block;
-	width: 1em;
-	height: 1em;
+	width: 12px;
+	height: 12px;
 	background-color: rgba(255, 255, 255, 0.4);
 	cursor: pointer;
 	margin: 0 3px 0.5em;
@@ -2053,6 +2052,12 @@ textarea.w-select {
 	}
 }
 
+@media screen and (min-width: 1000px) {
+	.w-slider-nav {
+		height: 275px;
+	}
+}
+
 .w-tabs {
 	position: relative;
 }
@@ -2179,28 +2184,33 @@ textarea.w-select {
 }
 
 .blog-grid-title {
-  position: relative;
-  display: inline-block;
-  color: #333; /* Text color */
+	position: relative;
+	display: inline-block;
+	color: #333; /* Text color */
 }
 
 .blog-grid-title::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px; /* Position the underline slightly below the text */
-  width: 0;
-  height: 2px; /* Thickness of the underline */
-  background-color: #B482FF; /* Purple color for the underline */
-  transition: width 0.4s ease; /* Smooth animation */
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -4px; /* Position the underline slightly below the text */
+	width: 0;
+	height: 2px; /* Thickness of the underline */
+	background-color: #b482ff; /* Purple color for the underline */
+	transition: width 0.4s ease; /* Smooth animation */
 }
 
 .blog-thumbnail-container:hover .blog-grid-title::after {
-  width: 100%; /* Full width on hover */
+	width: 100%; /* Full width on hover */
 }
 
-.nav-link:hover{
+.nav-link:hover {
 	padding: 7px 0px;
 	border-bottom: 4px none #f64256;
 	box-shadow: 0 4px 0 -1px #ed395e;
+}
+
+.swiper-pagination-bullet {
+	width: 12px !important;
+	height: 12px !important;
 }
