@@ -4352,9 +4352,6 @@ h3.blog5-heading {
 		padding-left: 0px;
 	}
 
-	.hive {
-		top: -26%;
-	}
 
 	.footer-logo {
 		margin-top: 0px;
@@ -5029,7 +5026,7 @@ th {
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 	.hive{
 		top:-26px;
 	}
