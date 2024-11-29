@@ -101,8 +101,37 @@ h1 {
 	width: 100%;
 }
 
-
-.block-images{
+.block-images {
 	width: 430px;
 	height: 430px;
+}
+
+.call-demo {
+	background: linear-gradient(
+		90deg,
+		#6a11cb,
+		#8a2be2,
+		#5f7cff,
+		#2575fc
+	); /* Smooth multi-color gradient */
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 12px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: transform 0.2s, background-color 0.2s;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+	text-decoration: none;
+}
+
+.call-demo:hover {
+	background: linear-gradient(
+		90deg,
+		#5c0db6,
+		#7a22da,
+		#5070f5,
+		#206ce4
+	); /* Slightly darker hover gradient */
+	transform: scale(1.05);
 }
