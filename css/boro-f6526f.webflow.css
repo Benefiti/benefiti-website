@@ -5036,3 +5036,10 @@ th {
 .mt-40{
 	margin-top: -40px;
 }
+
+
+@media (max-width: 767px) {
+	.job-notice-form {
+		flex-direction: column;
+	}
+}
