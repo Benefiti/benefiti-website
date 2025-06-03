@@ -87,7 +87,7 @@ h1 {
 	height: 375px;
 }
 
-.blog-images--no-height{
+.blog-images--no-height {
 	height: auto;
 }
 
@@ -138,4 +138,13 @@ h1 {
 		#206ce4
 	); /* Slightly darker hover gradient */
 	transform: scale(1.05);
+}
+
+.title-ol-item::marker {
+	font-weight: bold;
+	font-size: 23px !important;
+}
+
+.title-ol-item > h3 {
+	margin-bottom: 0 !important;
 }
