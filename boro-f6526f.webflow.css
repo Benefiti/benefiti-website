@@ -1003,7 +1003,9 @@ blockquote {
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  transition:
+    transform 200ms ease,
+    -webkit-transform 200ms ease;
 }
 
 .video-preview-container:hover {
@@ -2658,7 +2660,7 @@ blockquote {
 }
 
 .intervju {
-  background-image: url("https://aakdcmvkao.cloudimg.io/v7/https://benefiti.rs/images/44322090_xl.jpg");
+  background-image: url("https://benefiti.rs/images/44322090_xl.jpg");
 }
 
 .upoznavanje {
@@ -2666,7 +2668,7 @@ blockquote {
 }
 
 .balans {
-  background-image: url("https://aakdcmvkao.cloudimg.io/v7/https://benefiti.rs/images/balans.jpeg");
+  background-image: url("https://benefiti.rs/images/balans.jpeg");
 }
 
 .istrazivanje {
@@ -2759,7 +2761,9 @@ blockquote {
   -webkit-transition: -webkit-transform 200ms ease-in-out;
   transition: -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+  transition:
+    transform 200ms ease-in-out,
+    -webkit-transform 200ms ease-in-out;
 }
 
 .low-opacity-2 {
@@ -2777,7 +2781,9 @@ blockquote {
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease;
+  transition:
+    transform 200ms ease,
+    -webkit-transform 200ms ease;
 }
 
 .column-image:hover {
@@ -3006,7 +3012,9 @@ blockquote {
   -webkit-transition: -webkit-transform 200ms ease-in-out;
   transition: -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+  transition:
+    transform 200ms ease-in-out,
+    -webkit-transform 200ms ease-in-out;
 }
 
 .lightbox-image:hover {
@@ -4801,7 +4809,8 @@ blockquote {
 
 @font-face {
   font-family: "Fa solid 900";
-  src: url("../fonts/fa-solid-900.woff2") format("woff2"),
+  src:
+    url("../fonts/fa-solid-900.woff2") format("woff2"),
     url("../fonts/fa-solid-900.eot") format("embedded-opentype"),
     url("../fonts/fa-solid-900.woff") format("woff"),
     url("../fonts/fa-solid-900.ttf") format("truetype"),
@@ -4812,7 +4821,8 @@ blockquote {
 
 @font-face {
   font-family: "Fa brands 400";
-  src: url("../fonts/fa-brands-400.woff2") format("woff2"),
+  src:
+    url("../fonts/fa-brands-400.woff2") format("woff2"),
     url("../fonts/fa-brands-400.eot") format("embedded-opentype"),
     url("../fonts/fa-brands-400.ttf") format("truetype");
   font-weight: 400;
